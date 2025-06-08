@@ -1,0 +1,91 @@
+body{
+    margin: 20px;
+}
+P{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color:antiquewhite;
+    text-align: center; 
+}
+
+#results{
+    font-size: 50px;
+    font-weight: bold;
+}
+button{
+    height: 25px;
+    width:30%;
+    color: antiquewhite;
+    margin: 1%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 70px;
+    font-size: 20px;
+}
+
+
+#rock{
+    background-color:#7A989A;
+    
+    
+}
+#paper{
+    background-color: #849271;
+    
+    
+}
+#scissors{
+    background-color: #CF9546;
+
+}
+#restart{
+    background-color: #C67052;
+    height: auto;
+    width: auto;
+    color: antiquewhite;
+    padding: 20px;
+}
+div.text{
+    background-color: #C1AE8D;
+    color: black;
+    border-radius: 20px 20px 0 0 ;
+    padding: 20px;
+    width: 80%;
+    height: 480px;
+    margin:auto;
+}
+div.buttons{
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #544b3d;
+    height: 30%;
+    border: none;
+    border-radius: 0 0 20px 20px;
+    
+}
+#rock:hover{
+    background-color: #9bc1c4;
+    box-shadow: inset 5px 5px 5px 2px #7A989A;
+}   
+#rock:active{
+    box-shadow: inset 5px 5px 5px 2px #9bc1c4;
+    
+}
+
+#paper:hover{
+    background-color: #a1b28a;
+    box-shadow: inset 5px 5px 5px 2px #849271;
+}
+#paper:active{
+    box-shadow: inset 5px 5px 5px 2px #a1b28a;
+    
+}
+
+#scissors:hover{
+    background-color: #eeb86d;
+    box-shadow: inset 5px 5px 5px 2px #CF9546;
+}
+#scissors:active{
+    box-shadow: inset 5px 5px 5px 2px #eeb86d;
+    
+}
